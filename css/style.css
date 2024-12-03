@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+/* <-- alineacion del estructura principal --/> */
 
-/*  --- Header  --- */
+.container{
+    width:90%;
+    margin:0 auto;
+}
+
+/* <-- cierre de la alineacion de la estructura principal ---/> */
+
+/*  <--- Header  ---/> */
 
 .contenedor-principal{
     width:100%;
@@ -29,5 +37,54 @@
 }
 
 .nav > a:hover {
-    color:#5dc6f0
+    color:#5dc6f0;
 }
+
+/* <--- cierre del header --- /> */
+
+.fondo{
+    background: url(../img/hero4.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 70vh;
+}
+
+.hijo{
+    position:relative;
+}
+
+.presentation > h1 {
+    font-size: 50px;
+    font-family:'Roboto';
+    color:white;
+    padding-top: 2em;
+}
+
+.presentation > p {
+    font-weight:300;
+    font-family:'Segoe UI Semibold';
+    font-size:1.2em;
+    color:white;
+    padding-top:.5em;
+    /* z-index: 10; */
+}
+
+.presentation > .btn{
+    margin-top: 15px;
+    padding:10px;
+    border-radius: 10px;
+    background-color:#4211f3;
+    color:white;
+    cursor: pointer;
+    /* z-index:10; */
+}
+
+.capa{
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
